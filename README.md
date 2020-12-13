@@ -3,6 +3,8 @@
 `이것이 C#이다`책 기반.
 오타, 피드백 `issue, PullRequest`로 남겨주세요
 
+
+
 ## 접근 한정자
 
 
@@ -58,7 +60,7 @@ Dog dog1 = mammal as Dog; // dog1은 null
 | __복사__          | 얕은 복사 (`Shallow Copy`)      | 깊은 복사 (`Deep Copy`)                                      |
 | __인스턴스 생성__ | new 연산자와 생성자 필요        | 선언만으로도 생성                                            |
 | __생성자__        | 매개 변수 없는 생성자 선언 가능 | 매개 변수 없는 생성자 선언 불가능                            |
-| __상속__          | 가능                            | 모든 구조체는 `System.Object` 형식을 상속하는 `System.Value`으로부터 직접 상속받음 |
+| __상속__          | 가능                            | 모든 구조체는 `System.Object` 형식을 상속하는 `System.ValueType`으로부터 직접 상속받음 |
 
 
 
